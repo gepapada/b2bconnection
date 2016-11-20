@@ -16,18 +16,29 @@
     <div class="container">
     <body>
         <div class="header">
-        <h1>Welcome to b2b connection application!</h1>
+        <h1 id="h1-header">Welcome to b2b connection application!</h1>
         </div>
         
         <div class="nav-bar">
-			<div class="container">
-				<ul class="nav">
-					<li><a href="#">Nav item 1</a></li>
-					<li><a href="#">Nav item 2</a></li>
-					<li><a href="#">Nav item 3</a></li>
-				</ul>
-			</div>
+
+        	<div class="container">
+			<ul class="nav">
+				<li><a href="#">Nav item 1</a></li>
+				<li><a href="#">Nav item 2</a></li>
+				<li><a href="#">Nav item 3</a></li>
+			</ul>
 		</div>
+            
+            <form class="register" method="post" action="register.jsp">
+                    <input type="submit" name="Submit" value="Εγγραφείτε τώρα!">
+                </form>
+            
+        </div>
+
+            
+         
+        
+        
         <div class="content">
             
         <div class="main">
@@ -41,6 +52,7 @@
             Password:<input type="password" name="password" /><br/>
             <input type="hidden" name="hidden1" value="hidden?"/>
             <input type="submit" value="login" />
+            <a id="forgot" href="<%=request.getContextPath()%>/forgot_password.jsp">Ξεχάσατε τον κωδικό σας?</a>
 
         </form>
 	<%
@@ -59,13 +71,12 @@
             </div>
         
         </div>
-                            
-    </body>
-    
-    <div class="footer">
-        &copy; Copyright gepapada
-    </div> 
-   
-    </div> 
-            	
+        
+</body>
+
+<div class="footer">
+    &copy; Copyright gepapada
+</div>
+
+</div> 
 </html>
