@@ -23,22 +23,14 @@
 
         	<div class="container">
 			<ul class="nav">
-				<li><a href="#">Nav item 1</a></li>
+				<li><a href="index.jsp">HOME</a></li>
 				<li><a href="#">Nav item 2</a></li>
 				<li><a href="#">Nav item 3</a></li>
 			</ul>
 		</div>
-            
-            <form class="register" method="post" action="register.jsp">
-                    <input type="submit" name="Submit" value="Εγγραφείτε τώρα!">
-                </form>
-            
         </div>
 
-            
-         
-        
-        
+                                     
         <div class="content">
             
         <div class="main">
@@ -74,9 +66,9 @@
         
 </body>
 
-<div class="footer">
-    &copy; Copyright gepapada
-</div>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 
 </div> 
 </html>

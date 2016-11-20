@@ -43,11 +43,11 @@ public class login extends HttpServlet {
            
            /**RequestDispatcher view = request.getRequestDispatcher("index.jsp");
             view.forward(request, response);**/
-            PrintWriter out = response.getWriter();  
+            /**PrintWriter out = response.getWriter();  
             response.setContentType("text/html");  
             out.println("<script type=\"text/javascript\">");  
             out.println("alert('deadbeef');");  
-            out.println("</script>");
+            out.println("</script>");**/
             
             
             RequestDispatcher view = request.getRequestDispatcher("index.jsp");

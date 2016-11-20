@@ -6,7 +6,6 @@
 	 version="3.1">
     
     
-    
      <servlet>
         <servlet-name>doLogin</servlet-name>
         <servlet-class>com.example.web.login</servlet-class>
@@ -33,6 +32,11 @@
         <servlet-name>doLogout</servlet-name>
         <url-pattern>/logout.do</url-pattern>
     </servlet-mapping>
+    
+    <listener>
+        <description>SessionListener</description>
+        <listener-class>SessionListener</listener-class>
+    </listener>
     
     
     <session-config>

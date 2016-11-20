@@ -22,16 +22,20 @@
 					<li><a href="#">Nav item 3</a></li>
 				</ul>
 			</div>
+        <form class="register" method="post" action="register.jsp">
+                <input type="submit" name="Submit" value="Εγγραφείτε τώρα!">
+        </form>
 		</div>
     
     <div class="content">
         
         <form method="POST"
+              
     <center>
-        <input type="SUBMIT">
-    </center>
-    </form>
         
+    </center>
+              
+    </form>        
         <div class="main">
   
     </div>
@@ -39,7 +43,7 @@
                 <h3>Profile details</h3>
                 <form method="POST" action="logout.do">
                     Born: <%=session.getAttribute("birthyear")%><br/>
-                    Mail: <%=session.getAttribute("mail")%><br/>
+                    Mail: <%=session.getAttribute("mail")%><br/><br/><br/><br/>
                     Users currently logged in: <%=session.getAttribute("totalsessions")%><br/>
                     <input type="hidden" name="hidden1" value="hidden?"/>
                     <input type="submit" value="logout" />
@@ -50,9 +54,9 @@
             </div>
 </body>
 
-<div class="footer">
-    &copy; Copyright gepapada
-</div>
+<footer>
+    <jsp:include page="footer.jsp"/>
+</footer>
 
 </div> 
 </html>

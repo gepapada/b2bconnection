@@ -265,7 +265,7 @@
 
         	<div class="container">
 			<ul class="nav">
-				<li><a href="#">Nav item 1</a></li>
+				<li><a href="index.jsp">HOME</a></li>
 				<li><a href="#">Nav item 2</a></li>
 				<li><a href="#">Nav item 3</a></li>
 			</ul>
@@ -388,9 +388,9 @@
           
     </body>
 
-    <div class="footer">
-        &copy; Copyright gepapada
-    </div> 
+    <footer>
+        <jsp:include page="footer.jsp"/>
+    </footer>
     
     </div> 
 
