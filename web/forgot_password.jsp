@@ -18,24 +18,22 @@
     <body>
         
         
-    <div class="header">
+    <div class="header" style="background-color: lightcoral">
         <h1 align="center">FORGOT YOUR PASSWORD? </h1>
-    </div>
+    
         
      <div class="nav-bar">
 
         	<div class="container">
 			<ul class="nav">
 				<li><a href="index.jsp">HOME</a></li>
-				<li><a href="#">Nav item 2</a></li>
-				<li><a href="#">Nav item 3</a></li>
 			</ul>
 		</div>
         </div>
-        
+        </div>
     <div class="content">
             
-        <div class="main">
+
         
         <div id="forma">
             <h4>
@@ -63,7 +61,6 @@
         </form>
             </div>
             
-            </div>
         </div>
         
 </body>
