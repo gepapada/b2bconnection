@@ -9,13 +9,10 @@ and open the template in the editor.
 */
 
 #footer{
-        color: #fff;
-	background: #000;
-        padding: 2em 3em; 
-        bottom:0;
-        position: fixed;
-        min-width: 53.35%;
-        margin: 0 auto;
+        color: black;
+	background: lightsteelblue;
+        padding: 1em 1.25em ; 
+
 }
 
 

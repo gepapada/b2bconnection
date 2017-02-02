@@ -3,13 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/forgot_password.jsp</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/footer.jsp</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/user_profil.jsp</file>
             <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/index.jsp</file>
-            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/src/java/com/example/web/logout.java</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/costuners.jsp</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/header.css</file>
             <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/profile.jsp</file>
-            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/src/java/SessionListener.java</file>
-            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/doRegister.jsp</file>
             <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/register.jsp</file>
+            <file>file:/C:/Users/Georgio/Desktop/WWW/b2bConnection/web/style.css</file>
         </group>
     </open-files>
 </project-private>

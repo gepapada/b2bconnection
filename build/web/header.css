@@ -4,20 +4,22 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Nov 20, 2016, 7:27:15 PM
+    Created on : Jan 31, 2017, 10:19:40 PM
     Author     : Georgio
 */
-
-#footer{
-        color: black;
-	background: lightsteelblue;
-        padding: 1em 1.25em ; 
-
+#header
+{
+        color: white;
+        background-image: url("images/hands.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding: 7em;
 }
 
 
-#text{
+#text1{
     
     text-align: left;
+   
     
 }

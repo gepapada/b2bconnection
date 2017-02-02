@@ -257,22 +257,21 @@
     <body>
         
 	<div id="forma">
-            <div class="header">
-            <h3>Φόρμα εγγραφής</h3>
-            </div> 
+            <div class="header" style="background-color:powderblue;">
+                <h3>Φόρμα εγγραφής</h3>
+           
             
             <div class="nav-bar">
 
         	<div class="container">
 			<ul class="nav">
 				<li><a href="index.jsp">HOME</a></li>
-				<li><a href="#">Nav item 2</a></li>
-				<li><a href="#">Nav item 3</a></li>
 			</ul>
 		</div>        
-        </div>           
+        </div> 
+                 </div> 
         <div class="content">           
-        <div class="main">
+        
             
             <%
 	session = request.getSession(false);
@@ -381,7 +380,7 @@
            <input name="reset" type="reset" value="Επαναφορά φόρμας" /></p>
         </div>
         </form>
-       </div>
+       
                    
           </div>           
         </div>       

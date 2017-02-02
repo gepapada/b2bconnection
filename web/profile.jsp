@@ -5,58 +5,55 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<link rel="stylesheet" href="style.css" type="text/css">
 <!DOCTYPE html>
 <html>  
-    <div class="container">
-<body>
-    <div class="header">
-    <h1 align="center">Welcome <%=session.getAttribute("username")%> </h1>
-    </div>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Profile Page</title>        
+    </head>
     
+<body>
+    <div class="conteiner">
+    <header>
+            <jsp:include page="loged_header.jsp"/>      
+    </header>
+ 
     <div class="nav-bar">
-			<div class="container">
-				<ul class="nav">
-					<li><a href="#">Nav item 1</a></li>
-					<li><a href="#">Nav item 2</a></li>
-					<li><a href="#">Nav item 3</a></li>
-				</ul>
-			</div>
-        <form class="register" method="post" action="register.jsp">
-                <input type="submit" name="Submit" value="Εγγραφείτε τώρα!">
-        </form>
-		</div>
+	<ul class="nav">
+            <li><a href="#">My partners</a></li>
+            <li><a href="#">find a partner</a></li>
+            <li><a href="costuners.jsp">All registers</a></li>
+            <li><a href="http://83.212.99.180/">About us</a></li>
+            
+	</ul>       
+    </div>
     
     <div class="content">
-        
-        <form method="POST"
-              
-    <center>
-        
-    </center>
-              
-    </form>        
-        <div class="main">
-  
-    </div>
-            <div class="aside">
+        <div class="main"> 
+            
+        </div>
+        <div class="aside">
                 <h3>Profile details</h3>
+                Born: <%=session.getAttribute("birthyear")%><br/>
+                Mail: <%=session.getAttribute("mail")%><br/><br/><br/><br/>
+                Users currently logged in: <%=session.getAttribute("totalsessions")%><br/>
                 <form method="POST" action="logout.do">
-                    Born: <%=session.getAttribute("birthyear")%><br/>
-                    Mail: <%=session.getAttribute("mail")%><br/><br/><br/><br/>
-                    Users currently logged in: <%=session.getAttribute("totalsessions")%><br/>
                     <input type="hidden" name="hidden1" value="hidden?"/>
-                    <input type="submit" value="logout" />
+                    <input type="submit" value="logout" />                       
                 </form>
-                <br/>
+                <form class="register" method="post" action="register.jsp" >
+                    <input type="submit" name="Submit" value="Εγγραφείτε τώρα!">
+                </form>
+      
                 
             </div>
-            </div>
-</body>
-
-<footer>
+                        
+    </div>
+                    
+  <footer>
     <jsp:include page="footer.jsp"/>
 </footer>
-
-</div> 
+</div>
+</body>
 </html>
