@@ -23,8 +23,10 @@
 
 			<ul class="nav">
 				<li><a href="index.jsp">HOME</a></li>
+                                <li><a href="costuners.jsp">All registers</a></li>
 				<li><a href="contact.jsp">Contact us </a></li>
 				<li><a href="http://83.212.99.180/">About us</a></li>
+                                
 			</ul>
 
         </div>

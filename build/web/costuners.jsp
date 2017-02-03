@@ -4,7 +4,7 @@
     Author     : Georgio
 --%>
 
-<%@page import="com.sun.xml.rpc.processor.modeler.j2ee.xml.string"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page language="java" import="java.sql.*" errorPage="" %>
 <%@ page import="java.io.PrintWriter" %>

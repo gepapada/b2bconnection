@@ -258,7 +258,7 @@
         
 	<div id="forma">
             <div class="header" style="background-color:powderblue;">
-                <h3>Φόρμα εγγραφής</h3>
+                <h3 style="text-align: center">Φόρμα εγγραφής</h3>
            
             
             <div class="nav-bar">
